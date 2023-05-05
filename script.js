@@ -4,8 +4,8 @@ let p = document.getElementById('status');
 let btn = document.getElementById('btn');
 
 btn.addEventListener('click', () => {
-	p.innerHTML = "";
-	let h1 = document.createElement('h1');
-	h1.innerHTML = "Entered Metaverse";
-	p.appendChild(h1);
+	p.innerHTML = "Entered Metaverse";
+	// let h1 = document.createElement('h1');
+	// h1.innerHTML = "Entered Metaverse";
+	// p.appendChild(h1);
 });
